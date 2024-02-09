@@ -57,7 +57,7 @@ const NavigationBar = () => {
             Services
           </Link>
           <li className="nav-item">
-          <Link className="nav-link "  to='/Quiz' role="button"  aria-expanded="false">
+          <Link className="nav-link "  to='/Quiz'   aria-current="page">
           Online Assessment
           </Link>
           </li>
