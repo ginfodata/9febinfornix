@@ -56,9 +56,11 @@ const NavigationBar = () => {
           <Link className="nav-link "  to='/Services' role="button"  aria-expanded="false">
             Services
           </Link>
+          <li className="nav-item">
           <Link className="nav-link "  to='/Quiz' role="button"  aria-expanded="false">
           Online Assessment
           </Link>
+          </li>
         </li>
         {/* <li className="nav-item">
           <Link className="nav-link disabled" aria-disabled="true">Disabled</Link>
